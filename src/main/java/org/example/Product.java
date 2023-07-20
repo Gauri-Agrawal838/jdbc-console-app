@@ -13,6 +13,10 @@ public class Product {
         this.pemail = pemail;
     }
 
+    public Product() {
+
+    }
+
     public int getPid() {
         return pid;
     }
