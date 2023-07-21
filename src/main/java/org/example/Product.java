@@ -17,6 +17,9 @@ public class Product {
 
     }
 
+    public Product(int pid, String pname, String pemail) {
+    }
+
     public int getPid() {
         return pid;
     }

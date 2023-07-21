@@ -5,14 +5,14 @@ public interface ProductDAO {
 
             void insertProduct(Product product) throws SQLException;
 
-            void updateProduct(Product product);
-            void deleteProduct(int Pid);
+            void updateProduct(Product product) throws SQLException;
+            void deleteProduct(int Pid) throws SQLException;
 
 //            finding the particular product based on id
-            Product getProductById(int pid);
+            Product getProductById(int pid) throws SQLException;
 
 //            select all records
-        List<Product> getProducts();
+        List<Product> getProducts() throws SQLException;
 
 
 }
